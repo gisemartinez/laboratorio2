@@ -13,7 +13,7 @@ String uno = request.getParameter("UNO");
 	<title>Insert title here</title>
 </head>
 <body>
-	<%= request.getAttribute("AT1") %>
+	<%= request.getAttribute("AT1") %> 
 	<ul>
 	<% for(String elem : (List<String>)request.getAttribute("AT2") ){ %>
 		<li><%= elem %></li>
